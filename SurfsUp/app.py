@@ -1,5 +1,7 @@
 # Import the dependencies.
-
+from flask import Flask, jsonify
+from sqlalchemy import create_engine, automap_base
+from sqlalchemy.orm import Session
 
 
 #################################################
